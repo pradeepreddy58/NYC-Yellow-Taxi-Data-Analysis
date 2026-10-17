@@ -66,7 +66,9 @@ The project includes hourly and daily demand charts, trip distance and duration 
 
 The analysis identified missing values, zero-distance trips, zero-duration trips, unusually long trips, and extreme calculated speeds. Statistical outliers were investigated rather than automatically removed.
 
-Pickup and drop-off values are TLC Taxi Zone IDs. The dataset covers January 2025, so the findings may not represent other months or seasons. Extreme observations can affect summary statistics and should be considered when interpreting results.
+Pickup and drop-off values represent TLC Taxi Zone IDs, not neighborhood names. The analysis covers January 2025 only, so the findings may not represent other months or seasons.
+
+Extreme observations can affect summary statistics and calculated speeds. Any conclusions about fare-related fields should be based on the actual columns available in the dataset and their data quality.
 
 ##  Project Files
 
